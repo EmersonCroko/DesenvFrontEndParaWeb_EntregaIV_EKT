@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Projeto Cadastro de Integrantes acessível com HTML, CSS e JavaScript" />
+  <title>Entrega IV – Versionamento, Acessibilidade e Deploy</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="Img_LogodoProjeto.jpg" alt="Logo do Projeto" class="logo" />
+    <h1>Entrega IV – Versionamento, Acessibilidade e Deploy</h1>
+    <nav aria-label="Menu principal">
+      <ul>
+        <li><button data-route="home" class="nav-btn" aria-label="Página inicial">Home</button></li>
+        <li><button data-route="cadastro" class="nav-btn" aria-label="Página de cadastro">Cadastro</button></li>
+        <li><button data-route="lista" class="nav-btn" aria-label="Página de lista">Lista</button></li>
+      </ul>
+    </nav>
+    <div class="acessibilidade">
+      <button id="toggle-contrast" aria-label="Alternar alto contraste">🌓</button>
+      <button id="toggle-darkmode" aria-label="Alternar modo escuro">🌙</button>
+    </div>
+  </header>
+
+  <main id="app" tabindex="0">
+    <!-- O conteúdo das páginas será injetado aqui -->
+  </main>
+
+  <footer>
+    <p>© 2025 - Entrega IV - Versionamento, Acessibilidade e Deploy | Desenvolvido para a disciplina Desenvolvimento Front-end para Web</p>
+  </footer>
+
+  <script src="templates.js"></script>
+  <script src="storage.js"></script>
+  <script src="formValidation.js"></script>
+  <script src="router.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
