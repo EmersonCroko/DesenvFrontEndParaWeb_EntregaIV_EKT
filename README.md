@@ -47,9 +47,7 @@ release/... → entregas
 O projeto foi publicado com **GitHub Pages**.
 
 🔗 Acesse aqui:  
-[https://emerson-tangi.github.io/projeto-spa/](https://emerson-tangi.github.io/projeto-spa/)
-
-*(Substitua pelo link real do seu repositório após publicar.)*
+https://emersoncroko.github.io/DesenvFrontEndParaWeb_EntregaIV_EKT/
 
 ---
 
